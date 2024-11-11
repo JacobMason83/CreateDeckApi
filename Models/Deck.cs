@@ -3,7 +3,8 @@ using CreateDeckApi.Models;
 namespace CreateDeckApi.Models;
 
 
-    public class Deck
+{
+    public class Deck : Card
     {
         public Card[] Cards { get; set; }
         public Deck() 
@@ -32,3 +33,4 @@ namespace CreateDeckApi.Models;
         // will need create the deck
         // will then need to shuffle the deck
     }
+

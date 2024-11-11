@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreateDeckApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7627630f9a6b63a348193436f9a9e070bcc15cc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CreateDeckApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreateDeckApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,13 +1,12 @@
 using System;
 using CreateDeckApi.Models;
-using SQLitePCL;
-namespace CreateDeckApi.Models
+namespace CreateDeckApi.Models;
 
-{
-    public class Deck : Card
+
+    public class Deck 
     {
         public Card[] Cards { get; set; }
-        public Deck()
+        public Deck() 
         {
             List<Card> deck = new List<Card>();
             foreach (int value in Enum.GetValues(typeof(Values)))
@@ -19,16 +18,17 @@ namespace CreateDeckApi.Models
                 }
                 Cards = deck.ToArray();
             }
+            
         }
 
 
-        public ShuffleDeck
+        public void ShuffleDeck()
         { 
-           
-            var shuffledDeck = rng.Shuffle(deck);
-            return shuffledDeck;
+           var rng = new Random();
+           var deck = Cards;
+        rng.Shuffle<Card>(deck);
+         this.Cards = deck;
         }
         // will need create the deck
         // will then need to shuffle the deck
     }
-}

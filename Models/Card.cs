@@ -1,14 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CreateDeckApi.Models
 {
     public class Card(int number,int suit)
     {
-        public int number { get; set; } = number;
-        public int suit{ get; set; } =  suit;
+        public int Number { get; set; } =number ;
+        public int Suit{ get; set; } = suit;
     
     }
     public enum Suits

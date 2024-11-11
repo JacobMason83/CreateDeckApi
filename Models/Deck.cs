@@ -3,7 +3,7 @@ using CreateDeckApi.Models;
 namespace CreateDeckApi.Models;
 
 
-    public class Deck :Card
+    public class Deck
     {
         public Card[] Cards { get; set; }
         public Deck() 

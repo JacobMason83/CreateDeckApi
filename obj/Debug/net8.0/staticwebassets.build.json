@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8U6pRxNGbF2LwGSOsTOJ81hdHd7bksmkPsnF7xZpG6I=",
+  "Source": "CreateDeckApi",
+  "BasePath": "_content/CreateDeckApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

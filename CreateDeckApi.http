@@ -1,0 +1,6 @@
+@CreateDeckApi_HostAddress = http://localhost:5244
+
+GET {{CreateDeckApi_HostAddress}}/GetMapController/
+Accept: application/json
+
+###

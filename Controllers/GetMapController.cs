@@ -11,11 +11,11 @@ public class GetMapController : ControllerBase
 {
 
     [HttpGet(Name = "GetCards")]
-    public Deck Get()
+    public Card[] Get()
     {
-     var deck = new Deck();
-     deck.ShuffleDeck();
+        
+        var deck = Deck.GetDecks();
         return deck;
     }
-    }
+}
 
